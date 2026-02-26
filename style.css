@@ -1,0 +1,46 @@
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial;
+}
+
+#chat {
+  height: 450px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.bubble {
+  max-width: 70%;
+  padding: 12px;
+  margin: 6px 0;
+  border-radius: 16px;
+}
+
+.user {
+  align-self: flex-end;
+  background: #00ff88;
+  color: black;
+}
+
+.ai {
+  align-self: flex-start;
+  background: #333;
+}
+
+.inputBox {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background: #00ff88;
+  border: none;
+}
